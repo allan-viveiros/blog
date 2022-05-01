@@ -1,0 +1,147 @@
+
+/* Main Container - Review and side content */
+.main-container{
+    display: grid;
+    grid-template-rows: 80px 1fr 30px;
+    grid-template-columns: 1fr 100px;
+    grid-template-areas:
+    "head head"
+    "main main"    
+    "footer media";
+    font-size: 14px;
+    padding: 0px 5px 0px 5px;
+    justify-content: stretch;
+}
+.head{
+    grid-area: head;
+}
+.content{
+    grid-area: main;    
+    padding: 20px 5px 20px 5px;
+    text-align: left;
+    display: grid;    
+    grid-template-areas: 
+    "review-area"
+    "side-content-area";
+    /*border: 1px solid white;*/
+}
+.medias{
+    grid-area: media;
+    padding: 5px 5px 0px 0px;    
+    text-align: right;
+}
+.footer{
+    grid-area: footer;
+    font-size: 12px;   
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ffffff91;
+}
+
+
+/* Review content */
+.review-content{
+    grid-area: review-area;
+    display: grid;     
+    /*border: 1px solid red;*/
+    grid-template-areas: 
+    "img-review"
+    "text-review";  
+    margin-bottom: 20px;
+}
+.img-review{
+    grid-area: img-review; 
+    min-height:400px;   
+    /*border: 1px solid blue;*/
+    background: url("/reviews/images/the_batman.jpg");  
+    background-size: cover;  
+}
+.text-review{
+    grid-area: text-review;
+    /*border: 1px solid gray;*/
+    padding: 0px 10px 10px 10px;
+}
+
+/* Side content - Author and movie details */
+.side-content{
+    grid-area: side-content-area;
+    /*grid-template-rows: 450px 250px;*/
+    /*border: 1px solid greenyellow;*/   
+    display: grid;
+    grid-template-areas: 
+    "author-area"
+    "movie-details";
+    height: fit-content;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    justify-items: center;    
+}   
+.author{
+    grid-area: author-area;
+    height: fit-content;
+    background: #7c7c7c91;
+    /*border: 1px solid white;*/
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.about-me{
+    border-bottom: 1px solid #7c7c7c91;
+}
+.author-pic{
+    grid-area: pic;
+    background: url("/reviews/images/avatar.png");
+    background-size: cover;
+    background-color: darkslategrey;
+    height: 100px;
+    width: 100px;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+.more-reviews{
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    float: right;
+}
+.more-reviews:hover{
+    font-size: 18px;
+    color: #eb0000;
+    border: none;
+}
+
+.movie-info{
+    grid-area: movie-details;
+    width: 80%;
+    height: fit-content;
+    /*border: 1px solid purple;*/
+    background: #1b252b;
+    border-radius: 20px;
+    padding: 10px;
+    /*margin: 20px;*/
+}
+.movie-info-img{
+    width: 60px;
+    height: 50px;
+}
+img{
+    float: right;
+}
+
+.txt-yellow{
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    color: #fffb05;
+}
+.txt-white{
+    text-align: left;
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+p{
+    text-align: left;
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    color: white;
+}

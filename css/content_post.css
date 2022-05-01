@@ -1,0 +1,119 @@
+/* Content Area (posts) - Flexbox*/
+.posts-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    /*border: 1px solid blue;
+    background: gray;*/ 
+    margin-bottom: 50px;
+}
+.post-box{
+    display: grid;
+    grid-template-columns: 70% 25%;
+    width: 100%; 
+    max-width: 550px;
+    min-height: 150px;
+    /*border: 1px solid red;
+    background: #F8FA9D; */
+    margin-bottom: 3px;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-areas: 
+    "txt img";    
+}
+.image-box{
+    grid-area: img;    
+    min-height: 100px;   
+    border-radius: 10px;
+    /*border: 1px solid white;*/
+}
+.text-box{
+    grid-area: txt;
+    min-height: 140px;
+    height: fit-content;  
+    text-align: left; 
+    border-radius: 10px;
+    padding: 0px 5px 5px 10px;
+    background: #0f0f0fa8;
+    color: white;
+    font-family: normal;
+    font-size: 15px;
+    /*border: 1px solid white;*/
+}
+.post-date{
+    float: right;
+    padding-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+    color: #ccc;
+    /*color: #fffb05;*/
+}
+a.rm-post{
+    float: right;
+    font-size: 18px;    
+    color: #fffb05;
+    padding-right: 5px;
+}
+a.rm-post:hover{
+    color: #eb0000;
+    border: none;
+}
+
+/* Content post title headline*/
+.post-title{
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    color:#eb0000;
+}
+
+.avatar-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: darkgray;
+    margin: 10px 0px 0px 0px;     
+}
+.author-name{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    color: #4a69aa;
+    font-weight: 900;
+}
+
+/* Image box pictures - each */
+#img-box-one{
+    background: url("/images/the_batman.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#img-box-two{
+    background: url("/images/uncharted.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#img-box-three{
+    background: url("/images/fb3.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#img-box-four{
+    background: url("/images/the355.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#img-box-five{
+    background: url("/images/scream5.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#img-box-six{
+    background: url("/images/deathonthenile.jpg") center;
+    background-size: cover;
+    background-position: top;
+}

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entertainment Reviews</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
 </head>
 <body>
     <!-- Main Container -->
@@ -14,21 +13,24 @@
         <!-- Head and menu -->
         <div class="head">
             <div class="logo">
-                <h1>ER</h1>
+                <h1> 
+                    <span class="logo-yellow">E</span>                    
+                    <span class="logo-red">R</span>                    
+                </h1>
                 <span>Entertainment Reviews</span>
             </div>
             <div class="menu-container">
                 <div id="menu-home" class="menu-item">
-                    <a href="#">Home</a>
+                    <a href="#" target="_self">Home</a>
                 </div>
                 <div id="menu-movies" class="menu-item">
-                   <a href="#">Movies</a>
+                   <a href="#" target="_self">Movies</a>
                 </div>
                 <div id="menu-series" class="menu-item">
-                    <a href="#">TV Shows</a>
+                    <a href="#" target="_self">TV Shows</a>
                 </div>
                 <div id="menu-animations" class="menu-item">
-                    <a href="#">Animations</a>
+                    <a href="#" target="_self">Animations</a>
                 </div>            
             </div>
         </div>   
@@ -36,55 +38,119 @@
         <!-- Content Area -->
         <div class="content">
             <!-- Posts Grid Area -->
-            <h1>All Reviews</h1>
-            <div id="posts" class="posts-container">                
-                <div id="post-one" class="post-box">
-                    <div class="text-box"><h3>One</h3></div>
-                    <div class="image-box">Image</div>
+            <span class="headline">All Reviews</span>
+            <div id="posts" class="posts-container">
+                
+                <!-- The Batman -->
+                <div id="post-one" class="post-box">                    
+                    <div class="text-box">
+                        <span class="post-date">Mar 19, 2022 </span>
+                        <h3 class="post-title">The Batman</h3>                        
+                        <p>
+                            What this film does achieve, however, is telling a solid new Batman story,                            
+                            one with some pretty compelling twists...                            
+                        </p>                      
+                        <a class="rm-post" href="/reviews/batman.html" target="_self">Read more</a>
+                        <img class="avatar-img" src="/images/avatar-review.png"> 
+                        <p class="author-name">Liz Shannon Miller</p>                                         
+                    </div>
+                    <div id="img-box-one" class="image-box"></div>
                 </div>
+
+                <!-- Uncharted -->
                 <div id="post-two" class="post-box">
-                    <div class="text-box"><h3>Two</h3></div>
-                    <div class="image-box">Image</div>
+                    <div class="text-box">
+                        <span class="post-date">Mar 30, 2022</span>
+                        <h3 class="post-title">Uncharted</h3>                        
+                        <p>
+                            The laughably atrocious screenplay is perpetually buoyed by the films 
+                            tight pacing and strong cast chemistry...
+                        </p>
+                        <a class="rm-post" href="/reviews/uncharted.html" target="_self">Read more</a>
+                        <img class="avatar-img" src="/images/avatar-review.png"> 
+                        <p class="author-name">Ian Thomas Malone</p>  
+                    </div>
+                    <div id="img-box-two" class="image-box"></div>
                 </div>
+
+                <!-- Fantastic Beasts: The Secrets of Dumbledore -->
                 <div id="post-three" class="post-box">
-                    <div class="text-box"><h3>Three</h3></div>
-                    <div class="image-box">Image</div>
+                    <div class="text-box">
+                        <span class="post-date">Apr 22, 2022</span>
+                        <h3 class="post-title">Fantastic Beasts: The Secrets of Dumbledore</h3>                        
+                        <p>
+                            This entertaining Harry Potter prequel buries memories of the Grindelwald disaster...
+                        </p>
+                        <a class="rm-post" href="/reviews/fb.html" target="_self">Read more</a>
+                        <img class="avatar-img" src="/images/avatar-review.png"> 
+                        <p class="author-name">Richard Roeper</p> 
+                    </div>
+                    <div id="img-box-three" class="image-box"></div>
                 </div>
+
+                <!-- The 355 -->
                 <div id="post-four" class="post-box">
-                    <div class="text-box"><h3>Four</h3></div>
-                    <div class="image-box">Image</div>
+                    <div class="text-box">
+                        <span class="post-date">Jan 11, 2022</span>
+                        <h3 class="post-title">The 355</h3>                        
+                        <p>
+                            This is a title that screams, "Watch me at home!"...
+                        </p>
+                        <a class="rm-post" href="/reviews/the355.html" target="_self">Read more</a>
+                        <img class="avatar-img" src="/images/avatar-review.png"> 
+                        <p class="author-name">Sara Michelle Fetters</p>  
+                    </div>
+                    <div id="img-box-four" class="image-box"></div>
                 </div>
+
+                <!-- Scream 5 (2022) -->
                 <div id="post-five" class="post-box">
-                    <div class="text-box"><h3>Five</h3></div>
-                    <div class="image-box">Image</div>
+                    <div class="text-box">
+                        <span class="post-date">Apr 16, 2022</span>
+                        <h3 class="post-title">Scream (2022)</h3>                        
+                        <p>
+                            A good enough requel that's smart enough to know that it's taking the only route open to it...
+                        </p>
+                        <a class="rm-post" href="/reviews/scream.html" target="_self">Read more</a>                        
+                        <img class="avatar-img" src="/images/avatar-review.png"> 
+                        <p class="author-name">Peter Canavese</p>
+                    </div>
+                    <div id="img-box-five" class="image-box"></div>
                 </div>
+
+                <!-- Death on the Nile -->
                 <div id="post-six" class="post-box">
-                    <div class="text-box"><h3>Six</h3></div>
-                    <div class="image-box">Image</div>
+                    <div class="text-box">
+                        <span class="post-date">Feb 24, 2022</span>
+                        <h3 class="post-title">Death on the Nile</h3>                        
+                        <p>
+                            It's very well done... It's darker and meaner than the original Agatha Christie [novel]...
+                        </p>                       
+                        <a class="rm-post" href="/reviews/dotn.html" target="_self">Read more</a>
+                        <img class="avatar-img" src="/images/avatar-review.png"> 
+                        <p class="author-name">Tim Cogshell</p>
+                    </div>
+                    <div id="img-box-six" class="image-box"></div>
                 </div>
             </div>
 
             <!-- Top 5 Grid Area -->
-            <h1>Top 5</h1>
+            <span class="headline">Top 5 Most Anticipated Movies </span>
             <div id="top5-grid" class="top5-container">                
-                <div id="top-one" class="top5-box">One</div>
-                <div id="top-two" class="top5-box">Two</div>
-                <div id="top-three" class="top5-box">Three</div>
-                <div id="top-four" class="top5-box">Four</div>
-                <div id="top-five" class="top5-box">Five</div>
+                <div id="top-one" class="top5-box"></div>
+                <div id="top-two" class="top5-box"></div>
+                <div id="top-three" class="top5-box"></div>
+                <div id="top-four" class="top5-box"></div>
+                <div id="top-five" class="top5-box">                                                                                                        </div>
             </div>
         </div>   
 
         <!-- Social Media links -->
-        <div class="medias">
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Git Hub</a>
-            <a href="https://www.linkedin.com/in/viveirosallan" target="_blank" rel="noopener noreferrer"> <i className="fab fa-linkedin"></i> </a>           
-            <a href="https://github.com/allan-viveiros" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github"></i> </a>            
-            <a href="#!"> <i className="fab fa-facebook"></i> </a>
-            <a href="#!"> <i className="fab fa-instagram"></i> </a>
+        <div class="medias">            
+            <a class="icon" href="#"><img src="https://img.icons8.com/fluency/20/000000/twitter.png" title="Twitter" alt="Twitter"></a>
+            <a class="icon" href="#"><img src="https://img.icons8.com/fluency/20/000000/instagram-new.png" title="Instagram" alt="Instagram"></a>
+            <a class="icon" href="#"><img src="https://img.icons8.com/color/20/000000/facebook-new.png" title="Facebook" alt="Facebook"></a>
+            <a class="icon" href="#"><img src="https://img.icons8.com/fluency/20/000000/github.png" title="GitHub" alt="GitHub"></a>           
         </div>  
 
         <!-- Footer --> 

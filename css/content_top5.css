@@ -1,0 +1,49 @@
+/* Top 5 - Flexbox */
+.top5-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around ;
+    /* border: 1px solid black; */    
+    background: #0f0f0f86;
+    padding-bottom: 5px;
+    border-top: 1px solid #c4c4c4;;
+    border-bottom: 1px solid #c4c4c4;
+    margin-top: 10px;
+}
+.top5-box{
+    width: 160px;
+    height: 200px;
+    /*border: 1px solid blue;
+    background: rgb(173, 247, 247);*/
+    padding: 2px;   
+    margin-top: 20px;    
+}
+
+/* Image box pictures - each */
+#top-one{
+    background: url("/images/dr_strange.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#top-two{
+    background: url("/images/topgun.png") center;
+    background-size: cover;
+    background-position: top;
+}
+#top-three{
+    background: url("/images/jw_dominion.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#top-four{
+    background: url("/images/blackadam.jpg") center;
+    background-size: cover;
+    background-position: top;
+}
+#top-five{
+    background: url("/images/bp.jpg") center;
+    background-size: cover;
+    background-position: top;
+}

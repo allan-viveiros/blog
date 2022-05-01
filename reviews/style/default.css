@@ -1,0 +1,34 @@
+body {
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
+    border: 0px;
+    background: black;
+    color: whitesmoke;      
+}
+
+/* Links */
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border-bottom: 2px solid red;
+}
+a:active{
+    border-bottom: 2px solid white;
+    color: white;
+}
+a:visited{
+    color: #c4c4c4;
+}
+a.icon:hover{
+    border: none;
+}
+
+/* Main Titles */
+.headline{
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    letter-spacing: 10px;
+    color: #fffb05;
+}

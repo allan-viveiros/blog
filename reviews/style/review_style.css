@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import "default.css";
+@import "menu.css";
+@import "content.css";
+
+
+/* Responsive layout - Media query */
+/* Small screens */
+@media(min-width:321px) and (max-width:600px){
+    p{
+        font-size: 20px;
+        color: #c4c4c4;
+    }
+}
+
+/* Medium screens */
+@media(min-width:601px) and (max-width:900px) {
+    .main-container{
+        grid-template-rows: 150px 1fr 30px;
+        grid-template-columns: 1fr 30px;
+        grid-template-areas:
+        "head head"
+        "main media"    
+        "footer footer";              
+    }
+    .medias{
+        text-align: right;       
+        padding-top: 50vh;
+    }
+    .head{
+        font-size: 20px;
+    }
+    .logo{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .logo-red{
+        margin-left: -12px;
+    }  
+    
+    .img-review{
+        min-height: 80vh;
+    }
+
+    p{
+        font-size: 20px;
+        color: #c4c4c4;
+    }
+
+    .author{
+        width: 70%;
+    } 
+
+    .movie-info{
+        width: 50%;
+        font-size: 20px;
+    }    
+    .movie-info-img{
+        width: 100px;
+        height: 80px;
+    }
+}
+
+/* Big screens */
+@media(min-width:901px){
+    .main-container{
+        grid-template-rows: 150px 1fr 30px;
+        grid-template-columns: 1fr 30px;
+        grid-template-areas:
+        "head head"
+        "main media"    
+        "footer footer";              
+    }
+    .medias{
+        text-align: right;       
+        padding-top: 50vh;
+    }
+    .head{
+        font-size: 20px;
+    }
+    .logo{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .logo-red{
+        margin-left: -12px;
+    }  
+    
+    .img-review{
+        min-height: 80vh;
+    }
+
+    p{
+        font-size: 20px;
+        color: #c4c4c4;
+    }
+    
+    .content{    
+        grid-template-areas: 
+        "review-area side-content-area";
+        grid-template-columns: 70% 28%;
+        /*border: 1px solid white;*/
+        justify-content: space-evenly;
+    }
+    .img-review{
+        min-height: 100vh;
+        max-width: 1000px;
+    }
+    .text-review{
+        max-width: 1000px;
+    }
+
+    .side-content{
+        max-width: 350px;
+    }  
+}
+

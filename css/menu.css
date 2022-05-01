@@ -1,0 +1,61 @@
+/* Head and Menu - Main container*/
+.head{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "logo"
+    "m-container";
+    /*border: 1px solid green;*/
+    font-size: 12px;
+}
+
+.logo{
+    grid-area: logo;
+    padding-left: 10px;    
+    line-height: 2px;
+    margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #dfdfde;
+    background: #1e1e1e;
+}
+
+.logo-yellow{
+    color: #fffb05;
+}
+.logo-red{
+    margin-left: -5px;
+    color: #eb0000;
+}
+
+.menu-container{
+    grid-area: m-container;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "home movies shows animations";
+    /*border: 1px solid orange;*/
+}
+/* Menu items */
+.menu-item{
+    padding: 1px;
+    text-align: center;
+    justify-items: center;
+    /*border: 1px solid blue;*/
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+
+.home{
+    grid-area: home;
+}
+.movies{
+    grid-area: movies;
+} 
+.series{
+    grid-area: shows;
+} 
+.animations{
+    grid-area: animations;
+}
