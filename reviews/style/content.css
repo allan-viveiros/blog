@@ -49,17 +49,70 @@
     "text-review";  
     margin-bottom: 20px;
 }
-.img-review{
+.img-review-one{
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
     background: url("/reviews/images/the_batman.jpg");  
     background-size: cover;  
 }
+/* Movie image to all review pages */
+.img-review-two{
+    grid-area: img-review; 
+    min-height:400px;   
+    /*border: 1px solid blue;*/
+    background: url("/reviews/images/uncharted.jpg");  
+    background-size: cover;  
+}
+.img-review-three{
+    grid-area: img-review; 
+    min-height:400px;   
+    /*border: 1px solid blue;*/
+    background: url("/reviews/images/fb3.jpg");  
+    background-size: cover;  
+}
+.img-review-four{
+    grid-area: img-review; 
+    min-height:400px;   
+    /*border: 1px solid blue;*/
+    background: url("/reviews/images/the355.jpg");  
+    background-size: cover;  
+}
+.img-review-five{
+    grid-area: img-review; 
+    min-height:400px;   
+    /*border: 1px solid blue;*/
+    background: url("/reviews/images/scream5.jpg");  
+    background-size: cover;  
+}
+.img-review-six{
+    grid-area: img-review; 
+    min-height:400px;   
+    /*border: 1px solid blue;*/
+    background: url("/reviews/images/deathonthenile.jpg");  
+    background-size: cover;  
+}
 .text-review{
     grid-area: text-review;
     /*border: 1px solid gray;*/
     padding: 0px 10px 10px 10px;
+}
+.text-review h2{
+    color: #fffb05;
+}
+
+.source{
+    color: #ccc;
+    text-align: right;
+    margin: 5px;
+}
+.source a{
+    text-decoration: none;
+    color: #dfdfdeb2;
+}
+.source a:hover{
+    color: #fffb05;
+    border: none;
 }
 
 /* Side content - Author and movie details */
@@ -100,7 +153,7 @@
     font-size: 18px;
     color: white;
     font-style: italic;
-    float: right;
+    float: left;
 }
 .more-reviews:hover{
     font-size: 18px;

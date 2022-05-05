@@ -52,8 +52,10 @@
     /*color: #fffb05;*/
 }
 a.rm-post{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
     float: right;
-    font-size: 18px;    
+    font-size: 15px;    
     color: #fffb05;
     padding-right: 5px;
 }

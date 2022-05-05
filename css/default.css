@@ -32,3 +32,20 @@ a.icon:hover{
     letter-spacing: 10px;
     color: #fffb05;
 }
+
+/* Link to unfinished webpages */
+a.back{
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fffb05;
+    margin: 20px 0px 0px 20px;
+}
+.work{
+    text-align: center;
+    padding: 20vh;
+}
+img-work{
+    height: 100%;
+    width: 100%;
+}
