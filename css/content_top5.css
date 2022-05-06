@@ -23,27 +23,27 @@
 
 /* Image box pictures - each */
 #top-one{
-    background: url("/images/dr_strange.jpg") center;
+    background: url("../images/dr_strange.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #top-two{
-    background: url("/images/topgun.png") center;
+    background: url("../images/topgun.png") center;
     background-size: cover;
     background-position: top;
 }
 #top-three{
-    background: url("/images/jw_dominion.jpg") center;
+    background: url("../images/jw_dominion.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #top-four{
-    background: url("/images/blackadam.jpg") center;
+    background: url("../images/blackadam.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #top-five{
-    background: url("/images/bp.jpg") center;
+    background: url("../images/bp.jpg") center;
     background-size: cover;
     background-position: top;
 }

@@ -90,32 +90,32 @@ a.rm-post:hover{
 
 /* Image box pictures - each */
 #img-box-one{
-    background: url("/images/the_batman.jpg") center;
+    background: url("../images/the_batman.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #img-box-two{
-    background: url("/images/uncharted.jpg") center;
+    background: url("../images/uncharted.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #img-box-three{
-    background: url("/images/fb3.jpg") center;
+    background: url("../images/fb3.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #img-box-four{
-    background: url("/images/the355.jpg") center;
+    background: url("../images/the355.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #img-box-five{
-    background: url("/images/scream5.jpg") center;
+    background: url("../images/scream5.jpg") center;
     background-size: cover;
     background-position: top;
 }
 #img-box-six{
-    background: url("/images/deathonthenile.jpg") center;
+    background: url("../images/deathonthenile.jpg") center;
     background-size: cover;
     background-position: top;
 }
