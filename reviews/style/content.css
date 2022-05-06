@@ -53,7 +53,7 @@
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
-    background: url("/reviews/images/the_batman.jpg");  
+    background: url("../images/the_batman.jpg");  
     background-size: cover;  
 }
 /* Movie image to all review pages */
@@ -61,35 +61,35 @@
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
-    background: url("/reviews/images/uncharted.jpg");  
+    background: url("../images/uncharted.jpg");  
     background-size: cover;  
 }
 .img-review-three{
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
-    background: url("/reviews/images/fb3.jpg");  
+    background: url("../images/fb3.jpg");  
     background-size: cover;  
 }
 .img-review-four{
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
-    background: url("/reviews/images/the355.jpg");  
+    background: url("../images/the355.jpg");  
     background-size: cover;  
 }
 .img-review-five{
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
-    background: url("/reviews/images/scream5.jpg");  
+    background: url("../images/scream5.jpg");  
     background-size: cover;  
 }
 .img-review-six{
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
-    background: url("/reviews/images/deathonthenile.jpg");  
+    background: url("../images/deathonthenile.jpg");  
     background-size: cover;  
 }
 .text-review{
@@ -141,7 +141,7 @@
 }
 .author-pic{
     grid-area: pic;
-    background: url("/reviews/images/avatar.png");
+    background: url("../images/avatar.png");
     background-size: cover;
     background-color: darkslategrey;
     height: 100px;
