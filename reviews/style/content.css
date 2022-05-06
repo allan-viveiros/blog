@@ -53,7 +53,7 @@
     grid-area: img-review; 
     min-height:400px;   
     /*border: 1px solid blue;*/
-    background: url("/reviews/images/the_batman.jpg");  
+    background: url("./reviews/images/the_batman.jpg");  
     background-size: cover;  
 }
 /* Movie image to all review pages */
