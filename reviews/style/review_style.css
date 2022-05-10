@@ -11,6 +11,9 @@
         font-size: 20px;
         color: #c4c4c4;
     }
+    figcaption{
+        font-size: 12px;
+    }
 }
 
 /* Medium screens */
@@ -38,6 +41,12 @@
         margin-left: -12px;
     }  
     
+
+
+    figcaption{
+        font-size: 12px;
+    }
+    /* >>>>>>>>>>>>>>>>>>> REVIEW THIS CODE <<<<<<<<<<<<<<<<<< */
     .img-review-one, .img-review-two, .img-review-three, .img-review-four, .img-review-five, .img-review-six{
         min-height: 80vh;
     }
@@ -102,6 +111,11 @@
         /*border: 1px solid white;*/
         justify-content: space-evenly;
     }
+    figcaption{
+        font-size: 12px;
+    }
+
+    /* >>>>>>>>>>>>>>>>>>> REVIEW THIS CODE <<<<<<<<<<<<<<<<<< */
     .img-review-one, .img-review-two, .img-review-three, .img-review-four, .img-review-five, .img-review-six{
         min-height: 100vh;
         max-width: 1000px;

@@ -49,49 +49,24 @@
     "text-review";  
     margin-bottom: 20px;
 }
-.img-review-one{
+.img-review{
     grid-area: img-review; 
-    min-height:400px;   
+    height: auto;
     /*border: 1px solid blue;*/
-    background: url("../images/the_batman.jpg");  
-    background-size: cover;  
 }
-/* Movie image to all review pages */
-.img-review-two{
-    grid-area: img-review; 
-    min-height:400px;   
-    /*border: 1px solid blue;*/
-    background: url("../images/uncharted.jpg");  
-    background-size: cover;  
+.img-review img{
+    width: 100%; 
 }
-.img-review-three{
-    grid-area: img-review; 
-    min-height:400px;   
-    /*border: 1px solid blue;*/
-    background: url("../images/fb3.jpg");  
-    background-size: cover;  
+figure{
+    padding: 0px;
+    margin: 0px;
 }
-.img-review-four{
-    grid-area: img-review; 
-    min-height:400px;   
-    /*border: 1px solid blue;*/
-    background: url("../images/the355.jpg");  
-    background-size: cover;  
+figcaption{
+    text-align: center;
+    color: #dfdfdeb2;
+    font-size: 10px;
 }
-.img-review-five{
-    grid-area: img-review; 
-    min-height:400px;   
-    /*border: 1px solid blue;*/
-    background: url("../images/scream5.jpg");  
-    background-size: cover;  
-}
-.img-review-six{
-    grid-area: img-review; 
-    min-height:400px;   
-    /*border: 1px solid blue;*/
-    background: url("../images/deathonthenile.jpg");  
-    background-size: cover;  
-}
+
 .text-review{
     grid-area: text-review;
     /*border: 1px solid gray;*/
@@ -99,6 +74,10 @@
 }
 .text-review h2{
     color: #fffb05;
+}
+.review-text-area{
+    border-left: 2px solid #eb0000; 
+    padding: 0px 0px 0px 5px;
 }
 
 .source{
@@ -118,7 +97,6 @@
 /* Side content - Author and movie details */
 .side-content{
     grid-area: side-content-area;
-    /*grid-template-rows: 450px 250px;*/
     /*border: 1px solid greenyellow;*/   
     display: grid;
     grid-template-areas: 
@@ -191,10 +169,11 @@ img{
     font-size: 15px;
     color: white;
 }
-
+/*
 p{
     text-align: left;
     font-family:  "Comic Sans MS", cursive, sans-serif;
     font-size: 15px;
     color: white;
 }
+*/
